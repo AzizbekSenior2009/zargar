@@ -1,0 +1,75 @@
+.topbar {
+  background-color: var(--color-footer);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: var(--fs-xs);
+  letter-spacing: var(--ls-wide);
+}
+
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.topbar-message {
+  font-size: var(--fs-xs);
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.topbar-currency {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  letter-spacing: var(--ls-wide);
+}
+
+.topbar-currency option {
+  background-color: var(--color-footer);
+  color: #fff;
+}
+
+.topbar-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: var(--fs-xs);
+  transition: color var(--transition-fast);
+}
+
+.topbar-link:hover {
+  color: var(--color-gold);
+}
+
+@media (max-width: 768px) {
+  .topbar-message {
+    font-size: 10px;
+  }
+
+  .topbar-right {
+    gap: var(--space-md);
+  }
+
+  .topbar-link span {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar-inner {
+    justify-content: center;
+  }
+
+  .topbar-right {
+    display: none;
+  }
+}

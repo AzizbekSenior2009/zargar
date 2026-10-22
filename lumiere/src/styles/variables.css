@@ -1,0 +1,101 @@
+:root {
+  /* Colors */
+  --color-bg: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-beige: #F1EADF;
+  --color-gold: #B08D57;
+  --color-gold-hover: #957545;
+  --color-gold-light: rgba(176, 141, 87, 0.1);
+  --color-dark: #2B2623;
+  --color-muted: #7A716A;
+  --color-footer: #1C1917;
+  --color-border: #E7DFD3;
+  --color-error: #C0392B;
+  --color-success: #27AE60;
+  --color-warning: #F39C12;
+
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Font sizes */
+  --fs-xs: 0.6875rem;    /* 11px */
+  --fs-sm: 0.75rem;      /* 12px */
+  --fs-base: 0.875rem;   /* 14px */
+  --fs-md: 1rem;          /* 16px */
+  --fs-lg: 1.125rem;     /* 18px */
+  --fs-xl: 1.25rem;      /* 20px */
+  --fs-2xl: 1.5rem;      /* 24px */
+  --fs-3xl: 2rem;        /* 32px */
+  --fs-4xl: 2.5rem;      /* 40px */
+  --fs-5xl: 3rem;        /* 48px */
+  --fs-6xl: 3.5rem;      /* 56px */
+
+  /* Font weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Spacing */
+  --space-2xs: 0.25rem;  /* 4px */
+  --space-xs: 0.5rem;    /* 8px */
+  --space-sm: 0.75rem;   /* 12px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-2xl: 2.5rem;   /* 40px */
+  --space-3xl: 3rem;     /* 48px */
+  --space-4xl: 4rem;     /* 64px */
+  --space-5xl: 5rem;     /* 80px */
+  --space-6xl: 6rem;     /* 96px */
+
+  /* Border Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Z-index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+
+  /* Container */
+  --container-max: 1200px;
+  --container-padding: 16px;
+
+  /* Letter spacing */
+  --ls-tight: -0.01em;
+  --ls-normal: 0;
+  --ls-wide: 0.05em;
+  --ls-wider: 0.1em;
+  --ls-widest: 0.15em;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container-padding: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: 32px;
+  }
+}

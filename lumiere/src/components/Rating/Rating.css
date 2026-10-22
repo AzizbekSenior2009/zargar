@@ -1,0 +1,41 @@
+.rating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.star {
+  color: var(--color-gold);
+}
+
+.star--empty {
+  color: var(--color-border);
+}
+
+.star--full {
+  color: var(--color-gold);
+}
+
+.star-half-wrap {
+  position: relative;
+  display: inline-flex;
+}
+
+.star-half-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.rating-count {
+  font-size: var(--fs-xs);
+  color: var(--color-muted);
+}

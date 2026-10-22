@@ -1,0 +1,34 @@
+.privacy-page {
+  padding: var(--space-4xl) 0;
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-content section {
+  margin-bottom: var(--space-3xl);
+}
+
+.privacy-content h2 {
+  font-size: var(--fs-2xl);
+  margin-bottom: var(--space-md);
+}
+
+.privacy-content p {
+  color: var(--color-muted);
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+.privacy-content ul {
+  list-style: disc;
+  padding-left: var(--space-xl);
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+.privacy-content li {
+  margin-bottom: var(--space-xs);
+}

@@ -1,0 +1,52 @@
+export const collections = [
+  {
+    id: 1,
+    name: 'Everyday Elegance',
+    slug: 'everyday-elegance',
+    description: 'Timeless pieces designed for daily wear that elevate your everyday style.',
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=1000&fit=crop',
+  },
+  {
+    id: 2,
+    name: 'Bridal',
+    slug: 'bridal',
+    description: 'Exquisite jewellery for your most memorable day. From engagement rings to wedding bands.',
+    image: 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=800&h=1000&fit=crop',
+  },
+  {
+    id: 3,
+    name: 'Diamond Classics',
+    slug: 'diamond-classics',
+    description: 'Our finest diamond pieces, crafted to showcase the brilliance of natural diamonds.',
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=1000&fit=crop',
+  },
+  {
+    id: 4,
+    name: 'Gold Collection',
+    slug: 'gold-collection',
+    description: 'Pure gold pieces that capture the warmth and beauty of this precious metal.',
+    image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&h=1000&fit=crop',
+  },
+  {
+    id: 5,
+    name: 'Gemstone Collection',
+    slug: 'gemstone-collection',
+    description: 'Vibrant gemstones set in exquisite designs. Each piece tells a colorful story.',
+    image: 'https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&h=1000&fit=crop',
+  },
+  {
+    id: 6,
+    name: 'Statement Pieces',
+    slug: 'statement-pieces',
+    description: 'Bold and unique designs for those who dare to stand out from the crowd.',
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&h=1000&fit=crop',
+  },
+  {
+    id: 7,
+    name: 'Gifts',
+    slug: 'gifts',
+    description: 'Perfect presents for every occasion. Find the ideal gift for your loved ones.',
+    image: '/images/uzik2.png',
+    wide: true,
+  },
+];

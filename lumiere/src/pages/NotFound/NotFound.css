@@ -1,0 +1,30 @@
+.not-found-page {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.not-found-page h1 {
+  font-family: var(--font-heading);
+  font-size: 120px;
+  line-height: 1;
+  color: var(--color-gold);
+  margin-bottom: var(--space-sm);
+}
+
+.not-found-page h2 {
+  font-size: var(--fs-3xl);
+  margin-bottom: var(--space-md);
+}
+
+.not-found-page p {
+  color: var(--color-muted);
+  max-width: 500px;
+  margin: 0 auto var(--space-2xl);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .not-found-page h1 {
+    font-size: 80px;
+  }
+}
